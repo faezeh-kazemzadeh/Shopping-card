@@ -45,7 +45,7 @@ export default function ProductsPage() {
               <Product data={product} key={product.id} />
             ))}
         </div>
-        <SideBar setQuery={setQuery} />
+        <SideBar query={query} setQuery={setQuery} />
       </div>
     </>
   );
