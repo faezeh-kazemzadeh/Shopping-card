@@ -7,7 +7,6 @@ import Loader from "../components/Loader";
 import {
   searchProducts,
   filterProducts,
-  createQueryObject,
   getInitialQuery,
 } from "../helper/helper";
 import { useSearchParams } from "react-router-dom";
